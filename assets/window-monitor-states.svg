@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="72" viewBox="0 0 288 72" shape-rendering="crispEdges">
+  <title>Window 0 pixel states</title>
+  <desc>Three 96 by 72 pixel states: a closed service window, a black institutional Dell monitor, and the same monitor with a corrupted blue error screen.</desc>
+
+  <!-- State 0: the closed service window. -->
+  <g id="service-window">
+    <path fill="#74736e" d="M6 56h84v5H6z"/>
+    <path fill="#242422" d="M9 61h78v5H9z"/>
+    <rect x="2" y="2" width="92" height="55" fill="#11110f"/>
+    <rect x="4" y="4" width="88" height="51" fill="#50504c"/>
+    <rect x="5" y="5" width="86" height="49" fill="#050505"/>
+    <rect x="7" y="7" width="82" height="45" fill="#000"/>
+    <path fill="#85857e" d="M7 7h82v1H8v44H7z"/>
+    <path fill="#171715" d="M89 8h1v45H8v-1h81z"/>
+  </g>
+
+  <!-- State 1: an early institutional flat-panel monitor, screen unlit. -->
+  <g id="black-monitor" transform="translate(96)">
+    <path fill="#252523" opacity=".44" d="M29 68h38v2H29z"/>
+    <rect x="12" y="2" width="72" height="54" fill="#080808"/>
+    <path fill="#353533" d="M13 3h70v51H13zm2 2v47h66V5z"/>
+    <rect x="15" y="5" width="66" height="47" fill="#171716"/>
+    <rect x="18" y="7" width="60" height="38" fill="#000"/>
+    <path fill="#4c4c49" d="M18 7h60v1H19v37h-1z"/>
+    <path fill="#090909" d="M78 8h1v38H19v-1h59z"/>
+    <rect x="15" y="46" width="66" height="6" fill="#1d1d1c"/>
+    <ellipse cx="48" cy="49" rx="7" ry="2.5" fill="none" stroke="#8b999e" stroke-width=".6"/>
+    <path fill="#8b999e" d="M41 48h2v1h-1v1h1v1h-2zm3 0h3v1h-2v1h2v1h-3zm4 0h1v2h2v1h-3zm4 0h1v2h2v1h-3z"/>
+    <rect x="77" y="49" width="1" height="1" fill="#769170"/>
+    <path fill="#101010" d="M43 56h10v8H43z"/>
+    <path fill="#30302e" d="M44 56h8v7h-8z"/>
+    <path fill="#0b0b0b" d="M32 63h32l5 5H27z"/>
+    <path fill="#353532" d="M34 63h28l3 3H31z"/>
+    <path fill="#080808" d="M27 68h42v2H27z"/>
+  </g>
+
+  <!-- State 2: the same monitor with a corrupted, non-operative blue screen. -->
+  <g id="blue-monitor" transform="translate(192)">
+    <path fill="#252523" opacity=".44" d="M29 68h38v2H29z"/>
+    <rect x="12" y="2" width="72" height="54" fill="#080808"/>
+    <path fill="#353533" d="M13 3h70v51H13zm2 2v47h66V5z"/>
+    <rect x="15" y="5" width="66" height="47" fill="#171716"/>
+    <rect x="18" y="7" width="60" height="38" fill="#0753a8"/>
+    <path fill="#063f82" d="M18 42h60v3H18zM22 25h34v1H22zm38 0h13v1H60z"/>
+    <path fill="#dcecff" d="M22 11h2v2h-2zm0 6h2v2h-2zm7-6h2v1h-2zm-2 1h2v1h-2zm-1 1h1v4h-1zm1 4h2v1h-2zm2 1h2v1h-2z"/>
+    <path fill="#edf6ff" d="M22 23h17v1H22zm21 0h8v1h-8zm10 0h2v1h-2zm4 0h13v1H57zM22 28h5v1h-5zm7 0h20v1H29zm22 0h3v1h-3zm5 0h15v1H56zM22 31h11v1H22zm13 0h4v1h-4zm6 0h19v1H41zm22 0h8v1h-8zM22 34h3v1h-3zm5 0h25v1H27zm27 0h7v1h-7zM22 37h16v1H22zm18 0h2v1h-2zm4 0h13v1H44z"/>
+    <path fill="#b9d8fb" d="M22 40h7v1h-7zm9 0h3v1h-3zm5 0h21v1H36z"/>
+    <path fill="#eff7ff" d="M64 33h10v8H64zm2 1v2h2v-2zm5 0v1h2v-1zm-5 4v2h1v-2zm3-1v2h2v-2zm3 2v1h1v-1z" fill-rule="evenodd"/>
+    <path fill="#4c4c49" d="M18 7h60v1H19v37h-1z"/>
+    <path fill="#090909" d="M78 8h1v38H19v-1h59z"/>
+    <rect x="15" y="46" width="66" height="6" fill="#1d1d1c"/>
+    <ellipse cx="48" cy="49" rx="7" ry="2.5" fill="none" stroke="#8b999e" stroke-width=".6"/>
+    <path fill="#8b999e" d="M41 48h2v1h-1v1h1v1h-2zm3 0h3v1h-2v1h2v1h-3zm4 0h1v2h2v1h-3zm4 0h1v2h2v1h-3z"/>
+    <rect x="77" y="49" width="1" height="1" fill="#769170"/>
+    <path fill="#101010" d="M43 56h10v8H43z"/>
+    <path fill="#30302e" d="M44 56h8v7h-8z"/>
+    <path fill="#0b0b0b" d="M32 63h32l5 5H27z"/>
+    <path fill="#353532" d="M34 63h28l3 3H31z"/>
+    <path fill="#080808" d="M27 68h42v2H27z"/>
+  </g>
+</svg>

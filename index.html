@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e7e3d6">
+    <meta name="description" content="A small browser artwork about waiting near the useful thing.">
+    <meta property="og:title" content="PLEASE STAY NEAR THE WINDOW">
+    <meta property="og:description" content="Your place has not been released.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/og.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>PLEASE STAY NEAR THE WINDOW</title>
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/pixel-reveal.js" defer></script>
+    <script src="/art.js" defer></script>
+  </head>
+  <body>
+    <main id="artwork" class="artwork" aria-live="off">
+      <section class="threshold scene" aria-labelledby="threshold-title">
+        <p class="agency">PUBLIC UTILITY / WINDOW 0</p>
+        <h1 id="threshold-title">PLEASE STAY<br>NEAR THE WINDOW</h1>
+        <button class="service-window" type="button" aria-label="A closed service window"></button>
+        <button class="ticket-button" type="button">TAKE A NUMBER</button>
+        <p class="position">POSITION: NOT YET ASSIGNED</p>
+      </section>
+    </main>
+    <p id="status" class="sr-only" aria-live="polite"></p>
+    <button id="reset-memory" class="reset-memory" type="button">forget this device</button>
+    <noscript>
+      <section class="no-script">
+        <p>THE WINDOW IS CLOSED.</p>
+        <img src="/assets/waiting-room.webp" alt="Four empty chairs face away from a high dark service window.">
+        <p>The room is still here.</p>
+      </section>
+    </noscript>
+  </body>
+</html>
